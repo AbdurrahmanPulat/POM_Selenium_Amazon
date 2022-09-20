@@ -1,0 +1,45 @@
+2022-09-20 18:37:24,739 INFO  [Log] search_a_product()Başarılı 
+2022-09-20 18:37:39,904 ERROR [Log] select_a_product()Başarısız oldu çünküIndex 1 out of bounds for length 0 
+2022-09-20 18:37:53,690 ERROR [Log] add_product_to_cart()Başarısız oldu çünküUnable to find element with locator By.id: add-to-cart-button
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'ABDURRAHMAN', ip: '192.168.1.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-09-20 18:37:53,745 ERROR [Log] go_to_cart()Başarısız oldu çünküno such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'ABDURRAHMAN', ip: '192.168.1.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3001086cfb6e4a5bf9156407212c15d8, findElement {using=xpath, value=//div[@id='nav-cart-text-container']/span[@class='nav-line-1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\abdur\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59067/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3001086cfb6e4a5bf9156407212c15d8 
+2022-09-20 18:38:10,004 INFO  [Log] search_a_product()Başarılı 
+2022-09-20 18:38:25,044 ERROR [Log] select_a_product()Başarısız oldu çünküIndex 1 out of bounds for length 0 
+2022-09-20 18:38:40,134 ERROR [Log] add_product_to_cart()Başarısız oldu çünküno such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-button"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'ABDURRAHMAN', ip: '192.168.1.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ddcb7156194824df3d0ca6202bc8effe, findElement {using=id, value=add-to-cart-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\abdur\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59176/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddcb7156194824df3d0ca6202bc8effe 
+2022-09-20 18:38:57,584 ERROR [Log] go_to_cart()Başarısız oldu çünküproduct wasn't added cart ==> expected: <true> but was: <false> 
+2022-09-20 18:58:13,274 INFO  [Log] search_a_product()Başarılı 
+2022-09-20 18:58:27,040 INFO  [Log] search_a_product()Başarılı 
+2022-09-20 18:58:42,224 ERROR [Log] select_a_product()Başarısız oldu çünkü: Index 1 out of bounds for length 0 
+2022-09-20 18:58:57,295 ERROR [Log] add_product_to_cart()Başarısız oldu çünkü: no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-button"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'ABDURRAHMAN', ip: '192.168.1.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7043167f5d40c26d512b54bae084bab3, findElement {using=id, value=add-to-cart-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\abdur\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60035}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60035/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7043167f5d40c26d512b54bae084bab3 
+2022-09-20 18:59:18,824 ERROR [Log] go_to_cart()Başarısız oldu çünkü: product wasn't added cart ==> expected: <true> but was: <false> 
+2022-09-20 19:00:21,394 INFO  [Log] search_a_product()Başarılı 
+2022-09-20 19:00:24,048 INFO  [Log] select_a_product()Başarılı 
+2022-09-20 19:00:25,641 INFO  [Log] add_product_to_cart()Başarılı 
+2022-09-20 19:00:27,483 INFO  [Log] go_to_cart()Başarılı 
