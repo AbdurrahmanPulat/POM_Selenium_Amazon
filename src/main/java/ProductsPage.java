@@ -6,10 +6,8 @@ import java.util.List;
 
 public class ProductsPage  extends  BasePage{
 
-    By shippingOptionLocator =By.xpath("//span[@class=\"a-size-base a-color-base puis-bold-weight-text\"]");
-
-    By productNameLocator =By.xpath("//span[@class=\"a-size-base a-color-base a-text-normal\"]");
-
+    By shippingOptionLocator = By.id("p_n_free_shipping_eligible-title");
+    By productNameLocator = new By.ByCssSelector("span.a-size-base-plus");
 
 
     public ProductsPage(WebDriver driver) {

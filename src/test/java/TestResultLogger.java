@@ -1,5 +1,4 @@
 
-import logger.Log;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestWatcher;
 
