@@ -2,7 +2,7 @@
 
 <a href="https://selenium.dev"><img src="https://selenium.dev/images/selenium_logo_square_green.png" width="180" alt="Selenium"/></a>
 
-# Hedef
+# Goal
 Creating an order on the goal Amazon website
 ## Video
 
