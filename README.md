@@ -1,7 +1,6 @@
 # POM_Selenium_Amazon
+<a href="https://selenium.dev"><img src="https://selenium.dev/images/selenium_logo_square_green.png" width="180" alt="Selenium"/></a>
 
-
-# A101_Selenium_Case
 # Hedef
 Creating an order on the goal Amazon website
 ## Video
